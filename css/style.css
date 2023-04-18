@@ -45,13 +45,13 @@ body {
 }
 
 .form {
-  padding: 10px;
+  padding: 20px;
   width: 400px;
   height: calc(100% + 30px);
   float: right;
   position: relative;
   top: -15px;
-  border: 8px solid rgba(120, 120, 120, 0.5);
+  border: 12px solid rgba(120, 120, 120, 0.5);
   background-color: white;
   background-clip: padding-box;
 }
@@ -82,7 +82,12 @@ body {
   margin-top: 8px;
   width: 344px;
   height: 55px;
+  padding: 8px 10px;
   border: 1px solid #ccc;
+}
+
+.input-container input[type="text"]:focus {
+  outline: 0;
 }
 
 .form .input-submit-container {
@@ -243,22 +248,21 @@ footer p {
     height: 56px;
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 768px) {
-  .container-2{
+  .container-2 {
     padding-right: 4%;
     padding-left: 4%;
   }
-  .container-list{
+  .container-list {
     margin-top: 0;
     float: none;
     display: inline-block;
     width: 100%;
   }
 
-  .form{
+  .form {
     float: none;
     display: inline-block;
     width: 90%;
